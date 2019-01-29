@@ -9,9 +9,8 @@ Here is a freshman to the world of computer science.
 </pre>
 
 
-#CONTENT INDEX
-
-##Assembly  
+# CONTENT INDEX  
+## Assembly  
 1.Assembly File Operation  
 Choose a lucky dog from some students by his student number.  
 (The name of source file is nothing but the no of the homework)  
