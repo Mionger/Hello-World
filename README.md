@@ -16,6 +16,10 @@ Choose a lucky dog from some students by his student number.
 (The name of source file is nothing but the no of the homework)  
 [Assembly File Operation](https://github.com/Mionger/Assembly/blob/master/project/K.ASM "Assembly File Operation")  
   
+### 2.`Calculate Fibonacci`  
+Input the index that you want to get and then you will get that Fibonacci number.  
+[Fibonacci](https://github.com/Mionger/Assembly/blob/master/homework/Fibonacci.asm "Fibonacci")  
+  
 ## Verilog HDL  
 ### 1.`MP3 Player on FPGA`  
 A MP3 Player on FPGA, which only plays midi files to be exact.  
