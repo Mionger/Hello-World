@@ -40,7 +40,7 @@ A simple MIPS architecture cpu under development
 ## Cloud  
 ### 1.`Free Cloud`  
 Get your own Cloud server for free  
-[VPN](https://github.com/Mionger/AWS-Cloud/blob/master/CreatNewInstance.md "Creat New Account")  
+[Free Cloud](https://github.com/Mionger/AWS-Cloud/blob/master/CreatNewInstance.md "Free Cloud")  
   
 ## Ruby  
 ### 1.`Basic Grammer`  
