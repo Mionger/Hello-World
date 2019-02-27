@@ -36,3 +36,13 @@ A MP3 Player on FPGA, which only plays midi files to be exact.
 ### 2.`MIPS CPU`  
 A simple MIPS architecture cpu under development  
 [MIPS CPU](https://github.com/Mionger/MIPS-CPU "MIPS CPU")  
+  
+## Cloud  
+### 1.`Free Cloud`  
+Get your own Cloud server for free  
+[VPN](https://github.com/Mionger/AWS-Cloud/blob/master/CreatNewInstance.md "Creat New Account")  
+  
+## Ruby  
+### 1.`Basic Grammer`  
+Basic grammer for new-learner  
+[Basic Grammer](https://github.com/Mionger/Ruby/blob/master/BasicGrammer.rb "Basic Grammer")  
