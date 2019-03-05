@@ -46,3 +46,8 @@ Get your own Cloud server for free
 ### 1.`Basic Grammer`  
 Basic grammer for new-learner  
 [Basic Grammer](https://github.com/Mionger/Ruby/blob/master/BasicGrammer.rb "Basic Grammer")  
+  
+## Python  
+### 1.`Random Number`  
+A tool can generate numbers randomly  
+[Random Number](https://github.com/Mionger/Hello-World/blob/master/generator.py "Random Number")  
