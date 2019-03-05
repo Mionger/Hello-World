@@ -1,30 +1,48 @@
 import random
 from pythonds.basic.stack import Stack
 
-def InfoInput():
+def RandomInfoInput():
     global random_base
     global random_weight
     global random_number
     global random_neg
+    global random_type
 
     while True:
-        random_base   = int(input("Please input the BASE of the randoms : "))
-        if random_base in [2, 10, 16]:
-            break
+        try:
+            random_base   = int(input("Please input the BASE of the randoms : "))
+            if random_base in [2, 10, 16]:
+                break
+        except ValueError:
+            continue
+        else:
+            print("Error 000 : The base is illegality for the moment.")
+            continue
 
     while True:
-        random_weight = int(input("Please input the WEIGHT of the ramdoms : "))
-        if random_weight > 0 and type(random_weight) == int:
-            break
+        try:
+            random_weight = int(input("Please input the WEIGHT of the randoms : "))
+            if random_weight > 0:
+                break
+        except ValueError:
+            continue
 
     while True:
-        random_number = int(input("Please input the NUMBER of the randoms : "))
-        if random_number > 0 and type(random_number) == int:
-            break
+        try:
+            random_number = int(input("Please input the NUMBER of the randoms : "))
+            if random_number > 0:
+                break
+        except ValueError:
+            continue
 
     while True:
         random_neg    = input("Generate negtive random?(y/n) : ")
         if random_neg in ["y", "n"]:
+            break
+
+    while True:
+        random_type   = input("Please input the type of random(int/int list/int tuple) : ")
+        if random_type in ["int", "int list", "int tuple"]:
             break
 
 
@@ -88,9 +106,21 @@ def RandomGenerator():
     global random_type
     global random_neg
 
+
+    if random_type in ["int list", "int tuple"]:
+        if random_type == "int list":
+            print("[" ,end="")
+        elif random_type =="int tuple":
+            print("(" ,end="")
+
+
     for i in range(random_number):
+        
+        if random_type in ["int list", "int tuple"] and i > 0:
+            print(", " ,end="")
+        
         # generate integer
-        if random_type == "int":
+        if random_type in ["int", "int list", "int tuple"]:
             
             # check the weight of the random
             if random_weight == 0:
@@ -112,8 +142,36 @@ def RandomGenerator():
 
             # print(number)
             target_number = BaseConversion(number, random_base, weight)
-            print(target_number)
+            print(target_number, end=" ")
         i = i + 1
+
+    if random_type in ["int list", "int tuple"]:
+        if random_type == "int list":
+            print("]", end="")
+        elif random_type == "int tuple":
+            print(")", end="")
+
+    print("")
+
+
+def menu():
+    print("-----------------------------------------------------------------")
+    print("    1. Random numbers generator")
+    print("-----------------------------------------------------------------")
+    while True:
+        menu_choice = input("Please press your choice : ") 
+        if menu_choice in ["1"]:
+            break
+    
+    if menu_choice == "1":
+        global random_weight
+        global random_number
+        global random_base
+        global random_type
+        global random_neg
+
+        RandomInfoInput()
+        RandomGenerator()
 
 random_weight   = 0         # 0 means random
 random_number   = 10     
@@ -121,6 +179,4 @@ random_base     = 10
 random_type     = "int"     # int 
 random_neg      = "n"       # y-positive and negtive n-only positive
 
-InfoInput()
-RandomGenerator()
-
+menu()
