@@ -120,10 +120,7 @@ random_number   = 10
 random_base     = 10
 random_type     = "int"     # int 
 random_neg      = "n"       # y-positive and negtive n-only positive
+
 InfoInput()
-# print("BASE   : ", random_base)
-# print("NUMBER : ", random_number)
-# print("WEIGHT : ", random_weight)
 RandomGenerator()
 
-# BaseConversion(-1, random_base, random_weight)
