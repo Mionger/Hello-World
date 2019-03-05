@@ -33,10 +33,6 @@ Booth in MIPS assembly.
 A MP3 Player on FPGA, which only plays midi files to be exact.  
 [MP3 Player](https://github.com/Mionger/mp3-player "MP3 Player on FPGA")  
   
-### 2.`MIPS CPU`  
-A simple MIPS architecture cpu under development  
-[MIPS CPU](https://github.com/Mionger/MIPS-CPU "MIPS CPU")  
-  
 ## Cloud  
 ### 1.`Free Cloud`  
 Get your own Cloud server for free  
