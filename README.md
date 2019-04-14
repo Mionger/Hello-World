@@ -32,18 +32,12 @@ Booth in MIPS assembly.
 ### 1.`MP3 Player on FPGA`  
 A MP3 Player on FPGA, which only plays midi files to be exact.  
 [MP3 Player](https://github.com/Mionger/mp3-player "MP3 Player on FPGA")  
-  
-## Cloud  
-### 1.`Free Cloud`  
-Get your own Cloud server for free  
-[Free Cloud](https://github.com/Mionger/AWS-Cloud/blob/master/CreatNewInstance.md "Free Cloud")  
-  
-## Ruby  
-### 1.`Basic Grammer`  
-Basic grammer for new-learner  
-[Basic Grammer](https://github.com/Mionger/Ruby/blob/master/BasicGrammer.rb "Basic Grammer")  
-  
+    
 ## Python  
 ### 1.`Random Number`  
 A tool can generate numbers randomly  
 [Random Number](https://github.com/Mionger/Hello-World/blob/master/generator.py "Random Number")  
+  
+### 2.`8 Puzzle`  
+Dealing 8 puzzle by A* with GUI  
+[8Puzzle](https://github.com/Mionger/Hello-World/blob/master/8Puzzle_GUI.py "8Puzzle")  
