@@ -41,3 +41,7 @@ A tool can generate numbers randomly
 ### 2.`8 Puzzle`  
 Dealing 8 puzzle by A* with GUI  
 [8Puzzle](https://github.com/Mionger/Hello-World/blob/master/8Puzzle_GUI.py "8Puzzle")  
+  
+### 3.`MIPS Disassemblier`  
+A tool can disassembly mips hex machine code  
+[MIPS Disassemblier](https://github.com/Mionger/MIPS-DASM "MIPS Disassemblier")  
