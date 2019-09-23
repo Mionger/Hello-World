@@ -32,6 +32,11 @@ Booth in MIPS assembly.
 ### 1.`MP3 Player on FPGA`  
 A MP3 Player on FPGA, which only plays midi files to be exact.  
 [MP3 Player](https://github.com/Mionger/mp3-player "MP3 Player on FPGA")  
+
+### 2.`MIPS CPU`  
+Project of course Computer Organization Principles.  
+Including CPU-31, CPU-54 and a MP3 plater based on the CPU-54.  
+[MPIS-CPU](https://github.com/Mionger/MIPS-CPU "MPIS CPU on FPGA")  
     
 ## Python  
 ### 1.`Random Number`  
@@ -45,3 +50,12 @@ Dealing 8 puzzle by A* with GUI
 ### 3.`MIPS Disassemblier`  
 A tool can disassembly mips hex machine code  
 [MIPS Disassemblier](https://github.com/Mionger/MIPS-DASM "MIPS Disassemblier")  
+  
+### 4.`LeetCode Log`  
+The log and solutions of LeetCode.  
+[LeetCode Log](https://github.com/Mionger/LeetCode "LeetCode")  
+  
+## JavaScript  
+### 1.`Visual Sort`  
+Some classcial sort algorithms by JavaScript.  
+[Visual Sort](https://github.com/Mionger/Visual-Sort "Visual Sort")  
