@@ -51,9 +51,9 @@ Dealing 8 puzzle by A* with GUI
 A tool can disassembly mips hex machine code  
 [MIPS Disassemblier](https://github.com/Mionger/MIPS-DASM "MIPS Disassemblier")  
   
-### 4.`LeetCode Log`  
-The log and solutions of LeetCode.  
-[LeetCode Log](https://github.com/Mionger/LeetCode "LeetCode")  
+### 4.`Complier`  
+A tokenizer and parser writen in pyhton.    
+[Complier](https://github.com/Mionger/Compiler)  
   
 ## JavaScript  
 ### 1.`Visual Sort`  
